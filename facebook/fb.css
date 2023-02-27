@@ -1,0 +1,14 @@
+#layout{
+   border: 1px solid silver;
+   width:40%;
+   height: 500px; 
+   margin-left: 30%;
+   padding-top: 10px;
+}
+#layout input {
+       margin-left: 16px;
+       height: 30px;
+       border-radius: 5px;
+       border: 1px solid silver;
+       
+}
