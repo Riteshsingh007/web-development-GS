@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            height: 300px;
+            width: 300px;
+        
+            transition: all 3s;
+        }
+
+        .bg-red{
+            background-color: red;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .bg-blue{
+         background-color: rgb(78, 25, 223);
+            position: absolute;
+            top: 50px;
+            left: 50px;
+        }
+        .bg-green{
+            background-color: rgb(21, 231, 21);
+            position: absolute;
+            top: 100px;
+            left: 100px;
+        }
+        .bg-black{
+            background-color: rgb(10, 10, 10);
+            position: absolute;
+            top: 150px;
+            left: 150px;
+        }
+        div:hover{
+            z-index:4;
+            background-color: aqua;
+            transform: rotate(360deg);
+            border-radius: 100%;
+        }
+        #hello{
+           
+            position: absolute;
+            top:200px;
+            left: 200px;
+            background-color: brown;
+            transition: all 3s;
+            
+        }
+        
+        #hello:hover{
+            background-color: violet;           
+            transform: rotate(-360deg);
+            border-radius: 100%;
+
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="bg-red"></div>
+    <div class="bg-blue"></div>
+    <div class="bg-green"></div>
+    <div class="bg-black"></div>
+    <div id="hello"></div>
+   
+</body>
+</html>
